@@ -1,8 +1,11 @@
 package Tut4YolandePretorius;
 
-import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+
+
+import org.junit.Test;
+//import org.junit.jupiter.api.Test;
 
 public class TestCalc{
     	
@@ -12,6 +15,6 @@ public class TestCalc{
     	}
     	@Test
     	public void testSubtract() {
-    		assertEquals(10, Calc.subtract());
+    		assertEquals(5, Calc.subtract());
     	}
     }
