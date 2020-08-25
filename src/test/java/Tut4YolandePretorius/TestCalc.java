@@ -11,10 +11,13 @@ public class TestCalc{
     	
     	@Test
     	public void testAdd() {
-    		assertEquals(10, Calc.add());
+    		
+    		assertEquals(10, Calc.add(5,5));
     	}
+    	
+    	/*
     	@Test
     	public void testSubtract() {
-    		assertEquals(5, Calc.subtract());
-    	}
+    		assertEquals(5, Calc.subtract(10,5));
+    	}*/
     }

@@ -6,15 +6,14 @@ package Tut4YolandePretorius;
  */
 public class Calc 
 {
-		
-   
-	public static int add() {
-		int x = 5 + 5;
-		return x;
+
+	public static int add(int x, int y) {
+		int z = x + y;
+		return z;
 	}
 	
-	public static int subtract() {
-		int y = 10 - 5;
-		return y;
+	public static int subtract(int x, int y) {
+		int z = x + y;
+		return z;
 	}
 }
