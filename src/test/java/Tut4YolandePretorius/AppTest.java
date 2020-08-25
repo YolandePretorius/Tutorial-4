@@ -1,8 +1,8 @@
 package Tut4YolandePretorius;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.*;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AppTest{
     	
@@ -12,4 +12,3 @@ public class AppTest{
     	}
     	
     }
-
